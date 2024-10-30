@@ -411,3 +411,10 @@ var f = false || false || true
 // }else{
 //     alert('Invalid Marks/ Failed Marks')
 // }
+//loop
+
+// var num=+prompt("enter a number")
+
+// for(var i=1; i<=10; i++)
+
+// console.log(num+'*'+i+'='+num*i)
