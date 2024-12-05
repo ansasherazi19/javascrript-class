@@ -53,7 +53,7 @@ let products = [
     }
     html += `
     <div class="tem">
-<div class="icon" style="background-color:${iconBackgroundColor};"></div>
+<div class="icon" style="background-color:${iconBackgroundColor};">
 ${ discountprice.toFixed(1)}%
 </div>
 <div class="item-img">
@@ -64,9 +64,9 @@ ${ discountprice.toFixed(1)}%
 <p>${e.desc}</p>
 <h4>Price: <span>${(e.price - discountprice ) .tofixed(2)}</span>Rs</h4>
 <div class="item-link">
-    <button onclick="addtocart('${e.id}')" class="btn"><i></i></button>
+    <button onclick="addtocart('${e.id}')" class="btn"><i class="fa-brands fa-opencart"></i>Add To Cart</button>
 </div>
 </div>
-
-`
-  })
+</div>
+`;
+  });
